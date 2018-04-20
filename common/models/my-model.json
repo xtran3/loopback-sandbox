@@ -1,0 +1,32 @@
+{
+  "name": "MyModel",
+  "plural": "MyModel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "keyword": {
+      "type": "string",
+      "required": false,
+      "index": true
+    },
+    "url": {
+      "type": "string",
+      "required": false
+    },
+    "user": {
+      "type": "string",
+      "required": false
+    },
+    "date": {
+      "type": "date",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

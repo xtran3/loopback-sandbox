@@ -31,5 +31,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "MyModel": {
+    "dataSource": "MyDataSource",
+    "public": true
   }
 }

@@ -2,5 +2,13 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "MyDataSource": {
+    "url": "xxx-bluemix.cloudant.com",
+    "database": "a_testing",
+    "username": "xxx",
+    "password": "yyy",
+    "name": "MyDataSource",
+    "connector": "cloudant"
   }
 }
